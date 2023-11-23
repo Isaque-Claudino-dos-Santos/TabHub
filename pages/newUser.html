@@ -1,26 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles/reset.css" />
-    <link rel="stylesheet" href="./styles/home/index.css" />
-    <link rel="stylesheet" href="/styles/home/header.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/newUser/index.css" />
+    <link rel="stylesheet" href="/styles/newUser/header.css" />
+  </head>
+  <body>
     <!-- COMMENTARIO TESTE -->
     <header class="header">
-        <div class="header_title">
-          <img
-            class="header_title_logo"
-            src="./images/logos/cep.png"
-            alt="logo Cep"
-          />
-          <h1 class="header_title_text">
-            Trabalho Programação Web - Tag<strong>Hub</strong>
-          </h1>
-        </div>
-      </header>
-</body>
+      <div class="header_title">
+        <img
+          class="header_title_logo"
+          src="/images/logos/cep.png"
+          alt="logo Cep"
+        />
+        <h1 class="header_title_text">
+          Trabalho Programação Web - Tag<strong>Hub</strong>
+        </h1>
+      </div>
+    </header>
+
+    <div id="line"></div>
+
+    <!-- USER CARD - CENTRAL -->
+
+    <main class="card">
+      <h2 class="card-title">Cadastro de Estudante</h2>
+      <form class="card-form" action="./action_page.php">
+        <label for="name">Nome Completo</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <label for="lname">e-mail</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="lname">Senha</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <label for="lname">Habilidades</label><br>
+        <input type="text" id="lname" name="lname" value=""><br><br>
+        <input type="submit" value="Submit">
+      </form>
+    </main>
+
+  </body>
 </html>
