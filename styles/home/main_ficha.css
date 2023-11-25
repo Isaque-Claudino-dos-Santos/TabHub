@@ -35,8 +35,13 @@
   border-radius: 55px;
   font-size: 1.2em;
   font-weight: 550;
-  padding: 3%;
+  padding: 5% 3%;
   text-wrap: nowrap;
   width: 100%;
   letter-spacing: 2px;
+}
+
+.main_ficha_button:hover {
+  background-color: var(--bg-ficha-button_hover);
+  transition: 0.8s;
 }
