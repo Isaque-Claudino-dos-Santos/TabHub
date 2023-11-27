@@ -1,8 +1,6 @@
 @import '../utils.css';
 @import './header.css';
-@import './main_ficha.css';
-@import './card.css';
-@import './mediaQuery.css';
+@import './main_form.css';
 
 :root {
   /* GLOBAL VARS */
@@ -15,15 +13,12 @@
   /* MAIN VARS */
   --bg-main: #111526;
 
-  /* FICHA VARS */
-  --bg-ficha-button: #5169BD;
-  --bg-ficha-button_hover: #344378;
-  --font-color-ficha-button: #efefef;
-  --little-font-color: #afafaf;
-  
-  /* CARD VARS */
-  --bg-card: #000000; 
-  --font-skills-color: #aaaaaa;
+  /* FORM CARD VARS */
+  --bg-form: #BFC7E3;
+  --title-form: #344378;
+  --submit-form: #5169BD;
+  --letter-form: #BFC7E3;
+  --fill-form: #EBEBEB;
 }
 
 body {
@@ -38,16 +33,6 @@ body {
   display: flex;
   background-color: var(--bg-main);
   padding: 2%;
-}
-
-.cards {
-  height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.cards_header {
-  width: 100%;
 }
 
 #line {
