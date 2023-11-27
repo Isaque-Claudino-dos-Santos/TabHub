@@ -39,3 +39,8 @@
   text-align: center;
   margin: 1em 0;
 }
+
+.main_ficha_button:hover {
+  background-color: var(--bg-ficha-button_hover);
+  transition: 0.8s;
+}
