@@ -2,8 +2,7 @@
 @import './sideBarLeft/index.css';
 @import './arrow.css';
 @import './cssCode.css';
-@import "../utils.css";
-
+@import '../utils.css';
 
 body {
   height: 100vh;
@@ -19,11 +18,11 @@ main {
 }
 .arrow_back img {
   width: 5%;
-  transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .arrow_back img:hover {
-  transition-duration: .3s;
+  transition-duration: 0.3s;
   transform: scale(1.1);
 }
 
@@ -31,9 +30,9 @@ main {
   position: relative;
   color: #aaeaaa;
   margin: 2%;
-  font-size: .8em;
+  font-size: 0.8em;
 }
-.link_reference:hover.link_reference::before{
+.link_reference:hover.link_reference::before {
   content: '';
   position: absolute;
   bottom: -5px;
@@ -41,4 +40,15 @@ main {
   height: 2px;
   border-radius: 5px;
   background-color: #ee0000;
+}
+
+@media screen and (max-width: 800px) {
+  /* main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  aside {
+    width: 100%;
+  } */
 }
