@@ -11,19 +11,33 @@
 
 .card-title {
     color: var(--title-form);
-    margin: 5%;
+    
     text-align: inherit;
 }
 
 .card-form {
-    
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .card-input {
-    padding: 10%;
-    border-radius: 15px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 ::placeholder {
     color: var(--letter-form);
+}
+
+.card-signup {
+    background-color: var(--submit-form);
+    color: var(--fill-form);
+    padding: 15px 75px;
+    border-radius: 15px;
+    font-weight: 600;
 }
