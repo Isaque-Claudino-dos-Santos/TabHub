@@ -5,23 +5,39 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    justify-content: space-around;
 }
 
 .card-title {
     color: var(--title-form);
+    
+    text-align: inherit;
 }
 
 .card-form {
-    text-align: center;
-    text-decoration: none;
-    justify-content: space-around;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 .card-input {
-    padding: 10px 10px;
+    width: 100%;
+    padding: 15px 15px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
 ::placeholder {
     color: var(--letter-form);
+}
+
+.card-signup {
+    background-color: var(--submit-form);
+    color: var(--fill-form);
+    padding: 15px 75px;
+    border-radius: 15px;
+    font-weight: 600;
 }
