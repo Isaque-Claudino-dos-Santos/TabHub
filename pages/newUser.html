@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up</title>
-    <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/newUser/index.css" />
-    <link rel="stylesheet" href="/styles/newUser/header.css" />
-  </head>
-  <body>
-    <!-- COMMENTARIO TESTE -->
-    <header class="header">
-      <div class="header_title">
-        <img
-          class="header_title_logo"
-          src="/images/logos/cep.png"
-          alt="logo Cep"
-        />
-        <h1 class="header_title_text">
-          Trabalho Programação Web - Tag<strong>Hub</strong>
-        </h1>
-      </div>
-    </header>
 
-    <div id="line"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="/styles/reset.css" />
+  <link rel="stylesheet" href="/styles/newUser/index.css" />
+  <link rel="stylesheet" href="/styles/newUser/header.css" />
+</head>
 
-    <!-- USER CARD - CENTRAL -->
+<body>
+  <!-- COMMENTARIO TESTE -->
+  <header class="header">
+    <div class="header_title">
+      <img class="header_title_logo" src="/images/logos/cep.png" alt="logo Cep" />
+      <h1 class="header_title_text">
+        Trabalho Programação Web - Tag<strong>Hub</strong>
+      </h1>
+    </div>
+  </header>
 
-    <main class="card">
+  <div id="line"></div>
+
+  <!-- USER CARD - CENTRAL -->
+
+  <main>
+    <section class="card">
       <h2 class="card-title">Cadastro de Estudante</h2>
       <div class="card-form">
-        <form action="./action_page.php">
-          <input type="text" id="fname" name="fullName" placeholder="Nome Completo" value="" class="card-input"><br>
-          <input type="text" id="email" name="email" placeholder="E-mail" value="" class="card-input"><br>
-          <input type="text" id="passw" name="password" placeholder="Senha" value="" class="card-input"><br>
-          <input type="text" id="habil" name="habilities" placeholder="Habilidades" value="" class="card-input"><br>
-          <input type="button" id="signup" value="CADASTRAR" class="card-signup">
+        <form action="../index.html">
+          <input type="text" id="fname" name="fullName" placeholder="Nome Completo" value="" class="card-input"
+            required>
+          <input type="email" id="email" name="email" placeholder="E-mail" value="" class="card-input" required>
+          <input type="text" id="passw" name="password" placeholder="Senha" value="" class="card-input" required>
+          <input type="text" id="habil" name="habilities" placeholder="Habilidades" value="" class="card-input"
+            required>
+          <button class="card-signup">CADASTRAR</button>
         </form>
       </div>
-    </main>
+    </section>
+  </main>
 
-  </body>
+</body>
+
 </html>
